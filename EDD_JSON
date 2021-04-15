@@ -1,0 +1,93 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#", 
+	"$id": "https://example.com/object1618468983.json", 
+	"title": "Root", 
+	"type": "array",
+	"default": [],
+	"items":{
+		"$id": "#root/items", 
+		"title": "Items", 
+		"type": "object",
+		"required": [
+			"id",
+			"rm",
+			"ai_bu",
+			"party_type",
+			"cust_name",
+			"idno",
+			"total_risk_score"
+		],
+		"properties": {
+			"id": {
+				"$id": "#root/items/id", 
+				"title": "Id", 
+				"type": "integer",
+				"examples": [
+					1
+				],
+				"default": 0
+			},
+			"rm": {
+				"$id": "#root/items/rm", 
+				"title": "Rm", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"Leanne Graham"
+				],
+				"pattern": "^.*$"
+			},
+			"ai_bu": {
+				"$id": "#root/items/ai_bu", 
+				"title": "Ai_bu", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"Old Mutual"
+				],
+				"pattern": "^.*$"
+			},
+			"party_type": {
+				"$id": "#root/items/party_type", 
+				"title": "Party_type", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"Individual"
+				],
+				"pattern": "^.*$"
+			},
+			"cust_name": {
+				"$id": "#root/items/cust_name", 
+				"title": "Cust_name", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"Richard Willmore"
+				],
+				"pattern": "^.*$"
+			},
+			"idno": {
+				"$id": "#root/items/idno", 
+				"title": "Idno", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"6508295080085"
+				],
+				"pattern": "^.*$"
+			},
+			"total_risk_score": {
+				"$id": "#root/items/total_risk_score", 
+				"title": "Total_risk_score", 
+				"type": "integer",
+				"examples": [
+					5
+				],
+				"default": 0
+			}
+		}
+	}
+
+}
